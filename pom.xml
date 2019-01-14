@@ -5,7 +5,7 @@
     <artifactId>HelloWorld</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
-    <name>Sample Java Spring web service Using AWS CodeStar</name>
+     <name>Sample Java Spring web service Using AWS CodeStar</name>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -52,6 +52,21 @@
             <version>${junit.platform.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.17</version>
+        </dependency>
+        <dependency>
+		    <groupId>com.google.code.gson</groupId>
+		    <artifactId>gson</artifactId>
+		    <version>2.2.2</version>
+		</dependency>
     </dependencies>
 
     <build>
