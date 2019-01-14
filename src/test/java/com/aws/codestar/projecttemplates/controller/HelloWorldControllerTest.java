@@ -19,7 +19,7 @@ class HelloWorldControllerTest {
 	private static final String EXPECTED_RESPONSE_VALUE = "Hello AWS CodeStar!";
     private static final String INPUT_NAME = "AWS CodeStar";
 
-    private final HelloWorldController controller = new HelloWorldController();
+    //private final HelloWorldController controller = new HelloWorldController();
 
     /**
      * Initializing variables before we run the tests.
